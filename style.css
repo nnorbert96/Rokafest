@@ -24,7 +24,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: black; 
   border-bottom: 5px solid #e06f0b;
 }
 
@@ -92,13 +92,13 @@ body {
 }
 
 .about_title{
-    margin-right:18rem;
-    margin-left: 18rem;
+    margin-right:48rem;
+    margin-left: 48rem;
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
     border-radius: 35px;
     border: 2px solid darkorange;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom:5rem;
+    margin-top: 4rem;
 }
 
 .about_title h1{
@@ -114,9 +114,9 @@ body {
     border-radius: 35px;
     border: 2px solid orange;
     text-align: center;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 4rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 7rem;
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
 }
 
@@ -139,9 +139,10 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  padding: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 1px solid #e06f0b;
-  border-radius:35px;
+  border-radius:50px;
 }
 
 
@@ -171,6 +172,20 @@ body {
     margin-right: 20vh;
     margin-left: 20vh;
   }
+    
+    .about_title{
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+    
+    .aboutus{
+        margin-right: 15rem;
+        margin-left: 15rem;
+    }
+    
+    .aboutus p{
+        display: block;
+    }
 }
 
 
@@ -210,6 +225,22 @@ body {
     width: 80%;
     height: auto;
   }
+    
+    .about_title{
+        margin-left: 16vh;;
+        margin-right: 16vh;
+    }
+    
+    .aboutus{
+        margin: 6rem;
+    }
+    
+    .aboutus p{
+        font-size: 1rem;
+        display:inline-block;
+        line-height: 1.3rem;
+    }
+    
 }
 
 @media screen and (max-width: 1105px) {
@@ -253,6 +284,26 @@ body {
   height: auto;
 }
 
+    .about_title{
+        margin-left: 5vh;;
+        margin-right: 5vh;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about_title h1{
+        font-size: 2.5rem;
+    }
+    
+    .aboutus{
+        margin: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .aboutus p {
+        margin: 25px;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 600px) {
