@@ -91,12 +91,46 @@ body {
   height: auto;
 }
 
-h1{
+.about_title{
+    margin-right:18rem;
+    margin-left: 18rem;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
+    border-radius: 35px;
+    border: 2px solid darkorange;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about_title h1{
     font-size: 4rem;
     color: orange;
     font-weight: 600;
     text-align: center;
     margin: 1.5rem;
+}
+
+.aboutus{
+    color: darkorange;
+    border-radius: 35px;
+    border: 2px solid orange;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
+}
+
+.aboutus h2{
+    font-size: 3rem;
+    margin: 1.6rem;
+}
+
+.aboutus p{
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
 }
 
 .countdown-bottom {
