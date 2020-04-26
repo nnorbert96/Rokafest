@@ -251,13 +251,138 @@ body {
 .popup .content p{
     margin-top: 2rem;
 }
-@media screen and (max-width: 700px){
+
+.popup .content a{
+    color: darkorange;
+}
+
+.map{
+    text-align: center;
+}
+
+.map img{
+    width: 100%;
+    height: auto;
+}
+
+
+.gallery{
+    margin: 15px;
+    border: 1px solid darkorange;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3));
+}
+
+
+.gallery_title h1{
+    text-align: center;
+    font-size: 4rem;
+    color: darkorange;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.social_container{
+    text-align: center;
+}
+
+.social_container .social_title h1{
+    font-size: 4rem;
+    color: darkorange;
+    margin: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px #000;
+}
+
+.social_icons{
+    font-size: 5rem;
+    color: darkorange;
+    margin-bottom: 5rem;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7));
+    border: 1px solid darkorange;
+    border-radius: 35px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.social_icons a{
+    color: darkorange;
+}
+
+.fa-facebook:hover{
+    color:darkblue;
+}
+
+.fa-instagram:hover{
+    color: fuchsia;
+}
+
+.fa-youtube:hover{
+    color: red;
+}
+
+.sponsors_container{
+    border: 1px solid darkorange;
+    text-align: center;
+    margin: 4rem;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7));
+    border-radius: 35px;
+
+}
+
+.sponsors_title h1{
+    font-size: 4rem;
+    color: darkorange;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px #000;
+    margin: 2rem;
+}
+
+
+.sponsors_logo img{
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+    
+}
+
+@media screen and (max-width: 768px){
   .box{
     width: 70%;
   }
   .popup{
     width: 70%;
   }
+
+}
+
+.copyright{
+    text-align: center;
+    border: 1px solid darkorange;
+    border-radius: 35px;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7));
+    margin-bottom: 4rem;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.copyright p{
+    font-size: 2rem;
+    color: darkorange;
 }
 
 .countdown-bottom {
@@ -368,6 +493,7 @@ body {
         line-height: 1.3rem;
     }
     
+    
 }
 
 @media screen and (max-width: 1105px) {
@@ -383,6 +509,17 @@ body {
     text-align: center;
   }
 }
+
+
+@media screen and (max-width: 768px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -431,6 +568,20 @@ body {
         margin: 25px;
         display: block;
     }
+    
+
+ .sponsors_title h1{
+    font-size: 2.5rem;
+}
+    
+.social_container .social_title h1{
+    font-size: 2.5rem;
+}    
+    
+.social_icons{
+    font-size: 3.5rem;
+}    
+    
 }
 
 @media screen and (max-width: 600px) {
