@@ -8,50 +8,38 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <link rel="stylesheet" type="text/css" href="lightbox.min.css">
-    <script src="lightbox-plus-jquery.min.js"></script>
   <link href="style.css" rel="stylesheet">
-     <link rel="shortcut icon" type="image/x-icon" href="assets/rsz_rflogo.jpg">
-	<title>Róka Fest | Galéria</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/rsz_rflogo.jpg">
+	<title>Róka Fest | Početna Strana</title>
 </head>
 <body>
 <div class="topnav" id="myTopnav">
 	<img class="logo-pic"src="assets/rflogo.jpg" alt="logo">
-  <label class="logo-name">RÓKA FEST</label>
-  <a href="galeria.html"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
- <a href="#hungariam"><img class="flag" src="assets/hunflag.jpg" alt="hunflag"></a>
-  <a href="contact.html">Kapcsolat</a>
-  <a href="gallery.html"  class="active">Galéria</a>
-  <a href="programs.html">Programok</a>
-  <a href="about.html">Rólunk</a>
-  <a href="index.html">Kezdőlap</a>
+  <label class="logo-name">ROKA FEST</label>
+  <a href="#"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
+ <a href="index.html"><img class="flag" src="assets/hunflag.jpg" alt="hunflag"></a>
+  <a href="kontakt.html">Kontakt</a>
+  <a href="gallery.html">Galeria</a>
+  <a href="programi.html">Programi</a>
+  <a href="onama.html">O nas</a>
+  <a href="indexsrb.html"  class="active">Početna strana</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>  
 </div>
 <div class="cover-picture">
-    <img src="assets/galeriecover.jpg">
+    <img src="assets/coverpicture.png">
   </div>
-    
-<div class="gallery">
-    <div class="gallery_title">
-    <h1>Ikonikus képek</h1></div>
-    <a href="assets/chillzone.jpg"  data-lightbox="mygallery"><img src="assets/chillzone-small.jpg"</a>
-    <a href="assets/csapat.jpg" data-lightbox="mygallery"><img src="assets/csapat-small.jpg"</a>
-    <a href="assets/djdenni.jpg" data-lightbox="mygallery"><img src="assets/djdenni-small.jpg"</a>
-    <a href="assets/galeriecover.jpg" data-lightbox="mygallery"><img src="assets/galeriecover-small.jpg"</a>
-    <a href="assets/kalacs.JPG" data-lightbox="mygallery"><img src="assets/kalacs-small.JPG"</a>
-    <a href="assets/movieunderstars.jpg" data-lightbox="mygallery"><img src="assets/movieunderstars-small.jpg"</a>
-    <a href="assets/naplemente.JPG" data-lightbox="mygallery"><img src="assets/naplemente-small.JPG"</a>
-    <a href="assets/programscover.jpg" data-lightbox="mygallery"><img src="assets/programscover-small.jpg"</a>
-    <a href="assets/szintarsulat.jpg" data-lightbox="mygallery"><img src="assets/szintarsulat-small.jpg"</a>
-    <a href="assets/thespark.jpg" data-lightbox="mygallery"><img src="assets/thespark-small.jpg"</a>
-    <a href="assets/traktoron.jpg" data-lightbox="mygallery"><img src="assets/traktoron-small.jpg"</a>
-    <a href="assets/zumba.jpg" data-lightbox="mygallery"><img src="assets/zumba-small.jpg"</a>
-    </div>
-    
+<section>
+	<article class="tartalom">
+		<h2>A bejegyzés címe</h2>
+		<img src="assets/blogpic.jpg" alt="bl1pic">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sit amet metus at velit sodales blandit eu nec nibh. Etiam ac facilisis dui. Quisque lorem sapien, facilisis non purus eu, hendrerit feugiat neque. Nam malesuada et lectus vel pellentesque.</p>
+	</article>
+
+</section>
 <div class="countdown-bottom">
-	<div class="countdown1">A Róka festig hátravan még : </div>
+	<div class="countdown1">Do početka Roka Festa : </div>
 	<!-- Display the countdown timer in an element -->
 <p id="datum"></p>  
 <script>
@@ -80,7 +68,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("datum").innerHTML = "Fesztivál is ON ";
+    document.getElementById("datum").innerHTML = "Počinjeee !";
   }
 }, 1000);
 </script>    
