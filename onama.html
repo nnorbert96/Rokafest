@@ -16,7 +16,7 @@
 <div class="topnav" id="myTopnav">
 	<img class="logo-pic"src="assets/rflogo.jpg" alt="logo">
   <label class="logo-name">ROKA FEST</label>
-  <a href="#"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
+  <a href="onama.html"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
  <a href="about.html"><img class="flag" src="assets/hunflag.jpg" alt="hunflag"></a>
   <a href="kontakt.html">Kontakt</a>
   <a href="galeria.html">Galeria</a>
@@ -78,8 +78,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("datum").innerHTML = days + " nap " + hours + " óra "
-  + minutes + " perc " + seconds + " másodperc ";
+  document.getElementById("datum").innerHTML = days + " dan " + hours + " sat "
+  + minutes + " minut " + seconds + " sekund ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
