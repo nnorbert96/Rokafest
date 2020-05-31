@@ -543,6 +543,10 @@ gallery img{
   margin-right: 10px;
   border: 2px solid #e06f0b;
 }
+    
+    .tartalom h2{
+    font-size: 3rem;
+    }
 
 .tartalom img{
   margin-right: 25px;
@@ -567,13 +571,17 @@ gallery img{
         margin-bottom: 3rem;
     }
     
+    .aboutus h2{
+        font-size: 2.5rem;
+    }
+    
     .aboutus p {
         margin: 25px;
         display: block;
     }
     
     .day0 h1{
-        font-size: 1.5rem;
+        font-size: 4rem;
     }
     
     .overlay h2{
@@ -585,8 +593,9 @@ gallery img{
         width: 200px;
         height: 100px;
     }
+    
  .sponsors_title h1{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
     
 .social_container .social_title h1{
@@ -601,6 +610,10 @@ gallery img{
 .social_icons{
     font-size: 3.5rem;
 }    
+
+    .copyright p {
+        font-size: 1.4rem;
+    }
     
 }
 
