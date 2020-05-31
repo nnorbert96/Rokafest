@@ -572,7 +572,19 @@ gallery img{
         display: block;
     }
     
+    .day0 h1{
+        font-size: 1.5rem;
+    }
+    
+    .overlay h2{
+        font-size: 1.5rem;
+    }
 
+    
+    .gallery img {
+        width: 200px;
+        height: 100px;
+    }
  .sponsors_title h1{
     font-size: 2.5rem;
 }
@@ -580,6 +592,11 @@ gallery img{
 .social_container .social_title h1{
     font-size: 2.5rem;
 }    
+    
+    .sponsors_logo img{
+        width: 150px;
+        height 100px;
+    }
     
 .social_icons{
     font-size: 3.5rem;
