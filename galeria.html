@@ -26,12 +26,13 @@
 <body>
 <div class="topnav" id="myTopnav">
 	<img class="logo-pic"src="assets/rflogo.jpg" alt="logo">
-  <label class="logo-name">ROKA FEST 2020</label>
+  <label class="logo-name">ROKA FEST 2021</label>
   <a href="galeria.html"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
  <a href="gallery.html"><img class="flag" src="assets/hunflag.jpg" alt="hunflag"></a>
   <a href="kontakt.html">Kontakt</a>
   <a href="galeria.html"  class="active">Galeria</a>
   <a href="programi.html">Programi</a>
+  <a href="ulaznice.html">Ulaznice</a>
   <a href="onama.html">O nama</a>
   <a href="indexsrb.html">Početna Strana</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -65,7 +66,7 @@
 <p id="datum"></p>  
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jul 16, 2020 15:00:00").getTime();
+var countDownDate = new Date("Jul 15, 2021 15:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -83,8 +84,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("datum").innerHTML = days + " dan " + hours + " sat "
-  + minutes + " minut " + seconds + " sekund ";
+  document.getElementById("datum").innerHTML = days + " dan " + hours + " sati "
+  + minutes + " minuta " + seconds + " sekund ";
 
   // If the count down is finished, write some text
   if (distance < 0) {

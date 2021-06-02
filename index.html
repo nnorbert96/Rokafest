@@ -24,12 +24,13 @@
 <body>
 <div class="topnav" id="myTopnav">
 	<img class="logo-pic"src="assets/rflogo.jpg" alt="logo">
-  <label class="logo-name">RÓKA FEST 2020</label>
+  <label class="logo-name">RÓKA FEST 2021</label>
   <a href="indexsrb.html"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
  <a href="index.html"><img class="flag" src="assets/hunflag.jpg" alt="hunflag"></a>
   <a href="contact.html">Kapcsolat</a>
   <a href="gallery.html">Galéria</a>
   <a href="programs.html">Programok</a>
+  <a href="tickets.html">Belépők</a>
   <a href="about.html">Rólunk</a>
   <a href="index.html"  class="active">Kezdőlap</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -37,8 +38,33 @@
   </a>  
 </div>
 <div class="cover-picture">
-    <img src="assets/coverpicture.png">
+    <img src="assets/coverpicture2021.png">
   </div>
+<section>
+	<article class="tartalom">
+		<h2>PROMO PARTY 2021  </h2>
+		<img src="assets/promo2021.jpg" alt="bl1pic">
+		<p>Idén is mutasd meg az igazi arcod!
+</p>
+        <p>Egész napos röplabda és sörpong bajnokság. Várjuk a csapatok jelentkezését.</p>
+        <p></p>
+        <p>LINEUP :</p> 
+        <p> <br> KID DRUMMER <br> AADM <br> DJ HULLÓ</p>
+        <p> SXABLON Stage : <br> NEOMODERN <br> KLASSIX KILLIX</p>
+        <p> A bérletekkel és a belépőkkel kapcsolatos információt <a href="tickets.html">ITT</a> találjátok. </p>
+	</article>
+</section>
+
+    <section>
+	<article class="tartalom">
+		<h2>RÓKA FEST 2021</h2>
+		<img src="assets/coverpicture2021.png" alt="bl1pic">
+		<p>2021.-ben újra indul a fesztivál, amely az elmúlt években Vajdaság egyik legnagyobb eseményére nőtte ki magát.
+</p>
+        <p> A bérletekkel és a belépőkkel kapcsolatos információt <a href="tickets.html">ITT</a> találjátok. </p>
+	</article>
+</section>
+    
 <section>
 	<article class="tartalom">
 		<h2>Bemutatjuk a Róka Fest szervező csapatát!</h2>
@@ -50,6 +76,52 @@ Minden önkéntest rövid jellemzéssel és egy fényképpel mutatunk be.
 </p>
         <p> <a href="about.html">Ismerjétek meg őket!</a> </p>
 	</article>
-</section>   
+</section> 
+
+    <div class="countdown-bottom">
+	<div class="countdown1">A Róka Fest kezdete : </div>
+	<!-- Display the countdown timer in an element -->
+<p id="datum"></p>  
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jul 15, 2021 15:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("datum").innerHTML = days + " nap " + hours + " óra "
+  + minutes + " perc " + seconds + " másodperc ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("datum").innerHTML = "Fesztivál is ON ";
+  }
+}, 1000);
+</script>    
+    
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>

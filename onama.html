@@ -24,12 +24,13 @@
 <body>
 <div class="topnav" id="myTopnav">
 	<img class="logo-pic"src="assets/rflogo.jpg" alt="logo">
-  <label class="logo-name">ROKA FEST 2020</label>
+  <label class="logo-name">ROKA FEST 2021</label>
   <a href="onama.html"><img class="flag" src="assets/srbflag.gif" alt="srbflag"></a>
  <a href="about.html"><img class="flag" src="assets/hunflag.jpg" alt="hunflag"></a>
   <a href="kontakt.html">Kontakt</a>
   <a href="galeria.html">Galeria</a>
   <a href="programi.html">Programi</a>
+  <a href="ulaznice.html">Ulaznice</a>
   <a href="onama.html" class="active">O nama</a>
   <a href="indexsrb.html">Početna strana</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -58,5 +59,53 @@ Naš slogen je POKAŽITE SVOJE PRAVO LICE!
     </div>    
     
     
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=rokin salas&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/">Friday Night Funkin PC</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>    
+    
+        <div class="countdown-bottom">
+	<div class="countdown1">Do početka Roka Fest: </div>
+	<!-- Display the countdown timer in an element -->
+<p id="datum"></p>  
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jul 15, 2021 15:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("datum").innerHTML = days + " dan " + hours + " sati "
+  + minutes + " minuta " + seconds + " sekund ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("datum").innerHTML = "Počinjeee ! ";
+  }
+}, 1000);
+</script>
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>            
+            
 </body>
 </html>

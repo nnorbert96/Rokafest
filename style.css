@@ -363,6 +363,20 @@ gallery img{
     
 }
 
+table {
+  font-family: arial, sans-serif;
+  font-size: 1.4rem;
+  color: #e06f0b;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #e06f0b;
+  text-align: left;
+  padding: 8px;
+}
+
 @media screen and (max-width: 768px){
   .box{
     width: 70%;
