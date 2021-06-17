@@ -12,7 +12,7 @@ body {
 }
 
 .logo-name{
-  color: #e06f0b;
+  color: #ed331e;
   font-size: 3rem;
   font-weight: 600;
   margin-left: 25vh;
@@ -25,13 +25,13 @@ body {
 .topnav {
   overflow: hidden;
   background-color: black; 
-  border-bottom: 5px solid #e06f0b;
+  border-bottom: 5px solid #ed331e;
 }
 
 .topnav a {
   float: right;
   display: block;
-  color: #e06f0b;
+  color: #ed331e;
   text-align: center;
   padding: 25px;
   text-decoration: none;
@@ -39,12 +39,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #e06f0b;
+  background-color: #ed331e;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #e06f0b;
+  background-color: #ed331e;
   color: black;
 }
 
@@ -61,12 +61,12 @@ body {
 .tartalom h2{
   font-size: 4rem;
   margin:1.5rem;
-  color: #e06f0b;
+  color:#ed331e;
 }
 .tartalom p{
   font-size:1.125rem;
   letter-spacing:2px;
-  color: #e06f0b;
+  color: #ed331e;
   margin-bottom: 25px;
   margin-left: 25px;
   margin-right: 25px;
@@ -366,13 +366,13 @@ gallery img{
 table {
   font-family: arial, sans-serif;
   font-size: 1.4rem;
-  color: #e06f0b;
+  color: #ed331e;
   border-collapse: collapse;
   width: 100%;
 }
 
 td, th {
-  border: 1px solid #e06f0b;
+  border: 1px solid #ed331e;
   text-align: left;
   padding: 8px;
 }
@@ -389,7 +389,7 @@ td, th {
 
 .copyright{
     text-align: center;
-    border: 1px solid darkorange;
+    border: 1px solid #ed331e;
     border-radius: 35px;
     background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7));
     margin-bottom: 4rem;
@@ -418,12 +418,12 @@ td, th {
 .countdown-bottom .countdown1 {
   text-align: center;
   font-size: 15px;
-  color: #e06f0b;
+  color: #ed331e;
 }
 
 .countdown-bottom p{
   font-size: 15px;
-  color: #e06f0b;
+  color: #ed331e;
   text-align: center;
 }
 
