@@ -748,6 +748,11 @@ color: black;
     display: block;
     text-align: center;
   }
+
+    .tartalom iframe{
+    width: auto;
+}
+    
 }
 
 @media screen and (max-width:550px){
