@@ -177,24 +177,10 @@ body {
     margin-top: 2rem;
 }
 
-.button {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid darkorange;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-    text-align: center;
-}
-.button:hover {
-  background: darkorange;
-    color: black;
-}
 
-.overlay {
-  position: fixed;
+
+.overlay_flight_traveldil {
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -204,28 +190,20 @@ body {
   visibility: hidden;
   opacity: 0;
 }
-.overlay:target {
+.overlay_flight_traveldil:target {
   visibility: visible;
   opacity: 1;
 }
-
-.popup {
+.popup_flight_travlDil {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 50%;
+  width: 60%;
   position: relative;
-  transition: all 5s ease-in-out;
-  text-align: center;
+  transition: all 2s ease-in-out;
 }
-
-.popup h2 {
-  margin-top: 1rem;
-  color: #333;
-  font-family: Tahoma, Arial, sans-serif;
-}
-.popup .close {
+.popup_flight_travlDil .close_flight_travelDl {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -235,28 +213,33 @@ body {
   text-decoration: none;
   color: #333;
 }
-.popup .close:hover {
-  color: darkorange;
-}
-.popup .content {
-  max-height: 70%;
-  overflow: auto;
-  padding: 1rem;
-  text-align: center;
-  display: block;
+
+.button a{
+    color: black;
+    list-style: none;
+
 }
 
-.popup .content img{
-    width: 80%;
+.popup_flight_travlDil .content_flightht_travel_dil {
+  max-height: 30%;
+  overflow: auto;
+ text-align: center;
+}
+
+.popup_flight_travlDil .content_flightht_travel_dil img{
+    width:80%;
     height: auto;
 }
 
-.popup .content p{
-    margin-top: 2rem;
+.popup_flight_travlDil .content_flightht_travel_dil p{
+    margin: 29px;
+    font-size: 19px;
+    color: #e33d1e;
 }
 
-.popup .content a{
-    color: darkorange;
+.popup_flight_travlDil h2{
+    text-align: center;
+    color: #e33d1e;
 }
 
 .map{
@@ -377,6 +360,124 @@ td, th {
   padding: 8px;
 }
 
+.event-container{
+max-width: 800px;
+margin: auto;
+}
+
+.event{
+    border: 3px solid black;
+    background-color: rgba(237, 51, 30, 0.6);
+
+}
+
+.event-container h4.eventday{
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ed331e;
+}
+
+.event-container .event{
+    box-shadow: 0 4px 15px -8px rgba(0,0,0,0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left{
+    background: #222;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ed331e;
+    padding: 8px 48px;
+    font-weight: bold;  
+    text-align: center;
+    border-radius:  8px 0 0 8px;
+}
+
+.event .event-left .eventtime{
+    font-size: 56px;
+}
+
+.event .event-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h4.event-title{
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+}
+
+.event h3 .event-title{
+    font-weight: bold;
+}
+
+.event .event-right .event-description{
+    margin: 9px;
+}
+
+
+.event-container .event .event-right .event-description .button {
+color: black;
+    list-style: decimal;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+}
+
+
+.modal-content p{
+    font-size: 28px;
+    color: #ed331e;
+    margin: 9px;
+}
+
+
+/* The Close Button */
+.close {
+  color: #ed331e;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
 @media screen and (max-width: 768px){
   .box{
     width: 70%;
@@ -426,6 +527,10 @@ td, th {
   color: #ed331e;
   text-align: center;
 }
+
+
+
+
 
 @media screen and (max-width: 1639px){
   .logo-name{
@@ -643,4 +748,32 @@ td, th {
     display: block;
     text-align: center;
   }
+}
+
+@media screen and (max-width:550px){
+    .event{
+        flex-direction: column;
+    }
+    
+    .event .event-left{
+        padding: 0;
+        border-radius:  8px 8px 0 0;
+    }
+    
+    
+    .popup_flight_travlDil {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 90%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+    
+.popup_flight_travlDil .content_flightht_travel_dil img{
+    width:100%;
+    height: auto;
+}    
+    
 }
