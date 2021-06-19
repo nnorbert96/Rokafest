@@ -640,6 +640,9 @@ color: black;
   .popup{
     width: 70%;
   }
+     .tartalom iframe{
+    width: auto;
+}
 }
 
 
@@ -734,6 +737,10 @@ color: black;
         font-size: 1.4rem;
     }
     
+     .tartalom iframe{
+    width: auto;
+}
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -748,10 +755,10 @@ color: black;
     display: block;
     text-align: center;
   }
-
-    .tartalom iframe{
+ .tartalom iframe{
     width: auto;
 }
+   
     
 }
 
@@ -779,6 +786,10 @@ color: black;
 .popup_flight_travlDil .content_flightht_travel_dil img{
     width:100%;
     height: auto;
+}    
+    
+ .tartalom iframe{
+    width: auto;
 }    
     
 }
