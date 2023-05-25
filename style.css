@@ -15,7 +15,7 @@ body {
   color: #ed331e;
   font-size: 3rem;
   font-weight: 600;
-  margin-left: 25vh;
+  margin-left: 15vh;
 }
 
 .flag{
@@ -359,6 +359,160 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+
+
+
+		.containerevent {
+			border: 2px solid orange;
+            margin-right: 45vh;
+            margin-left: 45vh;
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
+		}
+
+
+
+
+            .containerevent p{
+                font-size:2.125rem;
+              letter-spacing:2px;
+              color: #ed331e;
+              margin-bottom: 25px;
+              margin-left: 25px;
+              margin-right: 25px;
+              margin-bottom: 25px;
+                margin-top: 25px;
+              display: inline-block;
+
+            }
+
+
+
+		.containerevent img {
+			display: none;
+			max-width: 100%;
+			margin-top: 10px;
+            align-content: center;
+            
+		}
+
+		.containerevent.open img {
+			display: block;
+            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+		}
+	
+
+
+
+.containerevent1 {
+			border: 2px solid orange;
+            margin-right: 45vh;
+            margin-left: 45vh;
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
+		}
+
+
+
+
+            .containerevent1 p{
+                font-size:2.125rem;
+              letter-spacing:2px;
+              color: #ed331e;
+              margin-bottom: 25px;
+              margin-left: 25px;
+              margin-right: 25px;
+              margin-bottom: 25px;
+                margin-top: 25px;
+              display: inline-block;
+
+            }
+
+
+
+		.containerevent1 img {
+			display: none;
+			max-width: 100%;
+			margin-top: 10px;
+            align-content: center;
+            
+		}
+
+		.containerevent1.open img {
+			display: block;
+            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+		}
+
+
+
+
+.containerevent2 {
+			border: 2px solid orange;
+            margin-right: 45vh;
+            margin-left: 45vh;
+            text-align: center;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,1));
+		}
+
+
+
+
+            .containerevent2 p{
+                font-size:2.125rem;
+              letter-spacing:2px;
+              color: #ed331e;
+              margin-bottom: 25px;
+              margin-left: 25px;
+              margin-right: 25px;
+              margin-bottom: 25px;
+                margin-top: 25px;
+              display: inline-block;
+
+            }
+
+
+
+		.containerevent2 img {
+			display: none;
+			max-width: 100%;
+			margin-top: 10px;
+            align-content: center;
+            
+		}
+
+		.containerevent2.open img {
+			display: block;
+            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .event-container{
 max-width: 800px;

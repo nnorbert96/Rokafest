@@ -44,33 +44,46 @@
   
     
     
-     <section>
-	<article class="tartalom">
-		<h2>Jul 13</h2>
+    <div class="containerevent" onclick="toggleContainerevent()">
+		<p>Jul 13</p>
 		<img src="assets/2023/comingsoon.jpeg" alt="bl1pic">
+	</div>
+
+	<script>
+		function toggleContainerevent() {
+			var containerevent = document.querySelector('.containerevent');
+			containerevent.classList.toggle('open');
+		}
+	</script>
     
-	</article>
-</section>
     
-    <section>
-	<article class="tartalom">
-		<h2>Jul 14</h2>
+     <div class="containerevent1" onclick="toggleContainerevent1()">
+		<p>Jul 14</p>
 		<img src="assets/2023/keplet.jpg" alt="bl1pic">
         <img src="assets/2023/dudas14.jpg" alt="bl1pic">
         <img src="assets/2023/mona14.jpg" alt="bl1pic">
         <img src="assets/2023/victoria14.jpg" alt="bl1pic">
-	</article>
-</section>
+	</div>
+
+	<script>
+		function toggleContainerevent1() {
+			var containerevent1 = document.querySelector('.containerevent1');
+			containerevent1.classList.toggle('open');
+		}
+	</script>
     
     
-    <section>
-	<article class="tartalom">
-		<h2>Jul 15</h2>
+     <div class="containerevent2" onclick="toggleContainerevent2()">
+		<p>Jul 15</p>
 		<img src="assets/2023/kovacsxsound15.jpg" alt="bl1pic">
-    
-	</article>
-</section>
-    
+	</div>
+
+	<script>
+		function toggleContainerevent2() {
+			var containerevent2 = document.querySelector('.containerevent2');
+			containerevent2.classList.toggle('open');
+		}
+	</script>
     
   <!--  
  <div class="event-container">
